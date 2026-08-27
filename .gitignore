@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Runtime / temp working data (uploaded FLACs, covers, generated zips)
+temp/*
+!temp/.gitkeep
+
+# PM2 logs
+logs/*
+!logs/.gitkeep
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
